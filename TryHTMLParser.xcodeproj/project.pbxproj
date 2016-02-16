@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0DDC841C7327FE00CD0719 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0DDC831C7327FE00CD0719 /* main.m */; };
+		2D0DDC871C7327FE00CD0719 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0DDC861C7327FE00CD0719 /* AppDelegate.m */; };
+		2D0DDC8A1C7327FE00CD0719 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0DDC891C7327FE00CD0719 /* ViewController.m */; };
+		2D0DDC8D1C7327FE00CD0719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0DDC8B1C7327FE00CD0719 /* Main.storyboard */; };
+		2D0DDC8F1C7327FE00CD0719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0DDC8E1C7327FE00CD0719 /* Assets.xcassets */; };
+		2D0DDC921C7327FE00CD0719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0DDC901C7327FE00CD0719 /* LaunchScreen.storyboard */; };
+		2D0DDC9D1C7327FE00CD0719 /* TryHTMLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0DDC9C1C7327FE00CD0719 /* TryHTMLParserTests.m */; };
+		2D0DDCA81C7327FE00CD0719 /* TryHTMLParserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0DDCA71C7327FE00CD0719 /* TryHTMLParserUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D0DDC991C7327FE00CD0719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0DDC771C7327FE00CD0719 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0DDC7E1C7327FE00CD0719;
+			remoteInfo = TryHTMLParser;
+		};
+		2D0DDCA41C7327FE00CD0719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0DDC771C7327FE00CD0719 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0DDC7E1C7327FE00CD0719;
+			remoteInfo = TryHTMLParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D0DDC7F1C7327FE00CD0719 /* TryHTMLParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryHTMLParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0DDC831C7327FE00CD0719 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D0DDC851C7327FE00CD0719 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D0DDC861C7327FE00CD0719 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D0DDC881C7327FE00CD0719 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D0DDC891C7327FE00CD0719 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D0DDC8C1C7327FE00CD0719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D0DDC8E1C7327FE00CD0719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D0DDC911C7327FE00CD0719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D0DDC931C7327FE00CD0719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0DDC981C7327FE00CD0719 /* TryHTMLParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryHTMLParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0DDC9C1C7327FE00CD0719 /* TryHTMLParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryHTMLParserTests.m; sourceTree = "<group>"; };
+		2D0DDC9E1C7327FE00CD0719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0DDCA31C7327FE00CD0719 /* TryHTMLParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryHTMLParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0DDCA71C7327FE00CD0719 /* TryHTMLParserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryHTMLParserUITests.m; sourceTree = "<group>"; };
+		2D0DDCA91C7327FE00CD0719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0DDC7C1C7327FE00CD0719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0DDC951C7327FE00CD0719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0DDCA01C7327FE00CD0719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0DDC761C7327FE00CD0719 = {
+			isa = PBXGroup;
+			children = (
+				2D0DDC811C7327FE00CD0719 /* TryHTMLParser */,
+				2D0DDC9B1C7327FE00CD0719 /* TryHTMLParserTests */,
+				2D0DDCA61C7327FE00CD0719 /* TryHTMLParserUITests */,
+				2D0DDC801C7327FE00CD0719 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0DDC801C7327FE00CD0719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0DDC7F1C7327FE00CD0719 /* TryHTMLParser.app */,
+				2D0DDC981C7327FE00CD0719 /* TryHTMLParserTests.xctest */,
+				2D0DDCA31C7327FE00CD0719 /* TryHTMLParserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D0DDC811C7327FE00CD0719 /* TryHTMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				2D0DDC851C7327FE00CD0719 /* AppDelegate.h */,
+				2D0DDC861C7327FE00CD0719 /* AppDelegate.m */,
+				2D0DDC881C7327FE00CD0719 /* ViewController.h */,
+				2D0DDC891C7327FE00CD0719 /* ViewController.m */,
+				2D0DDC8B1C7327FE00CD0719 /* Main.storyboard */,
+				2D0DDC8E1C7327FE00CD0719 /* Assets.xcassets */,
+				2D0DDC901C7327FE00CD0719 /* LaunchScreen.storyboard */,
+				2D0DDC931C7327FE00CD0719 /* Info.plist */,
+				2D0DDC821C7327FE00CD0719 /* Supporting Files */,
+			);
+			path = TryHTMLParser;
+			sourceTree = "<group>";
+		};
+		2D0DDC821C7327FE00CD0719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D0DDC831C7327FE00CD0719 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D0DDC9B1C7327FE00CD0719 /* TryHTMLParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0DDC9C1C7327FE00CD0719 /* TryHTMLParserTests.m */,
+				2D0DDC9E1C7327FE00CD0719 /* Info.plist */,
+			);
+			path = TryHTMLParserTests;
+			sourceTree = "<group>";
+		};
+		2D0DDCA61C7327FE00CD0719 /* TryHTMLParserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0DDCA71C7327FE00CD0719 /* TryHTMLParserUITests.m */,
+				2D0DDCA91C7327FE00CD0719 /* Info.plist */,
+			);
+			path = TryHTMLParserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0DDC7E1C7327FE00CD0719 /* TryHTMLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0DDCAC1C7327FE00CD0719 /* Build configuration list for PBXNativeTarget "TryHTMLParser" */;
+			buildPhases = (
+				2D0DDC7B1C7327FE00CD0719 /* Sources */,
+				2D0DDC7C1C7327FE00CD0719 /* Frameworks */,
+				2D0DDC7D1C7327FE00CD0719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryHTMLParser;
+			productName = TryHTMLParser;
+			productReference = 2D0DDC7F1C7327FE00CD0719 /* TryHTMLParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D0DDC971C7327FE00CD0719 /* TryHTMLParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0DDCAF1C7327FE00CD0719 /* Build configuration list for PBXNativeTarget "TryHTMLParserTests" */;
+			buildPhases = (
+				2D0DDC941C7327FE00CD0719 /* Sources */,
+				2D0DDC951C7327FE00CD0719 /* Frameworks */,
+				2D0DDC961C7327FE00CD0719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0DDC9A1C7327FE00CD0719 /* PBXTargetDependency */,
+			);
+			name = TryHTMLParserTests;
+			productName = TryHTMLParserTests;
+			productReference = 2D0DDC981C7327FE00CD0719 /* TryHTMLParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D0DDCA21C7327FE00CD0719 /* TryHTMLParserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0DDCB21C7327FE00CD0719 /* Build configuration list for PBXNativeTarget "TryHTMLParserUITests" */;
+			buildPhases = (
+				2D0DDC9F1C7327FE00CD0719 /* Sources */,
+				2D0DDCA01C7327FE00CD0719 /* Frameworks */,
+				2D0DDCA11C7327FE00CD0719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0DDCA51C7327FE00CD0719 /* PBXTargetDependency */,
+			);
+			name = TryHTMLParserUITests;
+			productName = TryHTMLParserUITests;
+			productReference = 2D0DDCA31C7327FE00CD0719 /* TryHTMLParserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0DDC771C7327FE00CD0719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 17Life;
+				TargetAttributes = {
+					2D0DDC7E1C7327FE00CD0719 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2D0DDC971C7327FE00CD0719 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2D0DDC7E1C7327FE00CD0719;
+					};
+					2D0DDCA21C7327FE00CD0719 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2D0DDC7E1C7327FE00CD0719;
+					};
+				};
+			};
+			buildConfigurationList = 2D0DDC7A1C7327FE00CD0719 /* Build configuration list for PBXProject "TryHTMLParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D0DDC761C7327FE00CD0719;
+			productRefGroup = 2D0DDC801C7327FE00CD0719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0DDC7E1C7327FE00CD0719 /* TryHTMLParser */,
+				2D0DDC971C7327FE00CD0719 /* TryHTMLParserTests */,
+				2D0DDCA21C7327FE00CD0719 /* TryHTMLParserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0DDC7D1C7327FE00CD0719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0DDC921C7327FE00CD0719 /* LaunchScreen.storyboard in Resources */,
+				2D0DDC8F1C7327FE00CD0719 /* Assets.xcassets in Resources */,
+				2D0DDC8D1C7327FE00CD0719 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0DDC961C7327FE00CD0719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0DDCA11C7327FE00CD0719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0DDC7B1C7327FE00CD0719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0DDC8A1C7327FE00CD0719 /* ViewController.m in Sources */,
+				2D0DDC871C7327FE00CD0719 /* AppDelegate.m in Sources */,
+				2D0DDC841C7327FE00CD0719 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0DDC941C7327FE00CD0719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0DDC9D1C7327FE00CD0719 /* TryHTMLParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0DDC9F1C7327FE00CD0719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0DDCA81C7327FE00CD0719 /* TryHTMLParserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D0DDC9A1C7327FE00CD0719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0DDC7E1C7327FE00CD0719 /* TryHTMLParser */;
+			targetProxy = 2D0DDC991C7327FE00CD0719 /* PBXContainerItemProxy */;
+		};
+		2D0DDCA51C7327FE00CD0719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0DDC7E1C7327FE00CD0719 /* TryHTMLParser */;
+			targetProxy = 2D0DDCA41C7327FE00CD0719 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D0DDC8B1C7327FE00CD0719 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0DDC8C1C7327FE00CD0719 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D0DDC901C7327FE00CD0719 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0DDC911C7327FE00CD0719 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D0DDCAA1C7327FE00CD0719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D0DDCAB1C7327FE00CD0719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0DDCAD1C7327FE00CD0719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TryHTMLParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7Life.TryHTMLParser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D0DDCAE1C7327FE00CD0719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TryHTMLParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7Life.TryHTMLParser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D0DDCB01C7327FE00CD0719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TryHTMLParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7Life.TryHTMLParserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryHTMLParser.app/TryHTMLParser";
+			};
+			name = Debug;
+		};
+		2D0DDCB11C7327FE00CD0719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TryHTMLParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7Life.TryHTMLParserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryHTMLParser.app/TryHTMLParser";
+			};
+			name = Release;
+		};
+		2D0DDCB31C7327FE00CD0719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TryHTMLParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7Life.TryHTMLParserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TryHTMLParser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2D0DDCB41C7327FE00CD0719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TryHTMLParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7Life.TryHTMLParserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TryHTMLParser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0DDC7A1C7327FE00CD0719 /* Build configuration list for PBXProject "TryHTMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0DDCAA1C7327FE00CD0719 /* Debug */,
+				2D0DDCAB1C7327FE00CD0719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0DDCAC1C7327FE00CD0719 /* Build configuration list for PBXNativeTarget "TryHTMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0DDCAD1C7327FE00CD0719 /* Debug */,
+				2D0DDCAE1C7327FE00CD0719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D0DDCAF1C7327FE00CD0719 /* Build configuration list for PBXNativeTarget "TryHTMLParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0DDCB01C7327FE00CD0719 /* Debug */,
+				2D0DDCB11C7327FE00CD0719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D0DDCB21C7327FE00CD0719 /* Build configuration list for PBXNativeTarget "TryHTMLParserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0DDCB31C7327FE00CD0719 /* Debug */,
+				2D0DDCB41C7327FE00CD0719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D0DDC771C7327FE00CD0719 /* Project object */;
+}
